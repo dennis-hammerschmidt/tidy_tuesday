@@ -121,8 +121,8 @@ base_map + geom_text(
   # add labels and titles
   labs(
     title = "US Beer Production by State, 2008 - 2019",
-    subtitle = "The visualization shows the total beer producation for each state and year across all three production types (On Premises, Kegs and Barrels, Bottles and Cans). Data is provided by the TTP Beer Statistics. Made for #tidytuesday in R \n",
-    caption = "Visualization: Dennis Hammerschmidt",
+    subtitle = "The visualization shows the total beer producation for each state and year across all three production types (On Premises, Kegs and Barrels, Bottles and Cans) \n",
+    caption = "Visualization: Dennis Hammerschmidt (@ d_hammers) | Data: TTP Beer Statistics   \n",
     size = "Barrels produced (total)"
   ) +
   scale_size_continuous(breaks=c(2500000, 5000000, 7500000, 10000000, 12500000, 15000000, 17500000, 20000000, 22500000, 25000000)) +
@@ -136,9 +136,13 @@ base_map + geom_text(
     plot.subtitle = element_text(
       color = "#fffff8",
       size = 10,
-      hjust = 0.4
+      hjust = 0.04
     ),
-    plot.caption = element_text(color = "#fffff8", size = 8),
+    plot.caption = element_text(
+      color = "#fffff8",
+      size = 8,
+      vjust = 0.2
+    ),
     text = element_text(family = "raleway-extralight"),
     plot.background = element_rect(fill = "#757575", colour = "#757575"),
     panel.background = element_rect(fill = "#757575",
