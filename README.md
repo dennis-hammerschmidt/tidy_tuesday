@@ -3,6 +3,8 @@
 [![R](https://img.shields.io/badge/Project-Build%20with%20♥-blue?style=for-the-badge&logo=R)](https://github.com/dennis-hammerschmidt/tidy_tuesday)
 [![R](https://img.shields.io/badge/Powered%20By-Tidyverse-blue?style=for-the-badge&logo=R)](https://github.com/dennis-hammerschmidt/tidy_tuesday)
 
+---
+
 <div align="center">
 
 :necktie: [LinkedIn][LinkedIn]&nbsp;&nbsp;|&nbsp;&nbsp;[:octocat: GitHub][GitHub]&nbsp;&nbsp;|&nbsp;&nbsp;:earth_africa: [Website][Website]
@@ -27,12 +29,28 @@ This repo contains the code and showcases my contributions to #tidytuesday. Belo
   <img src="week20_2020/final_graph.png">
 </p>
 
+## GDPR Fines
+
+:point_right: **[Code](week16_2020/2020_W17_GDPR.R)** 
+
+<p align="center">
+  <img src="week17_2020/final_graph.png">
+</p>
+
 ## HipHop Artists
 
 :point_right: **[Code](week16_2020/2020_W16_HipHop.R)** 
 
 <p align="center">
   <img src="week16_2020/final_graph.png">
+</p>
+
+## Tour de France
+
+:point_right: **[Code](week15_2020/2020_W15_TDF.R)** 
+
+<p align="center">
+  <img src="week15_2020/final_graph.png">
 </p>
 
 ## US Beer Production
@@ -55,7 +73,7 @@ This repo contains the code and showcases my contributions to #tidytuesday. Belo
 
 :point_right: **[Code](week12_2020/2020_W12_The_Office.R)** 
 
-<p align="center">:point_right: 
+<p align="center"> 
   <img src="week12_2020/boxplot.png">
 </p>
 
